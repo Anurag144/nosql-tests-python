@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 TEST_IP=${1-127.0.0.1}
 LOOP_COUNT=${2-20}

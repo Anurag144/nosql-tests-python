@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 # Pass system or path to the source directory as first argument. If no argument
 # is given the current directory will be assumed to be the source directory!

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 DB=${1}
 TEST_IP=${2-localhost}

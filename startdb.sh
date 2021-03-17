@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bashm n
 
 which=$1
 FN=$2

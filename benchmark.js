@@ -1,4 +1,5 @@
 // benchmark driver
+
 'use strict';
 
 var underscore = require('underscore');
@@ -83,6 +84,8 @@ var neighbors = argv.l;
 var neighbors2data = argv.ld;
 var host = argv.a;
 
+console.log("Debug:"+debug)
+
 var total = 0;
 
 if (tests.length === 0 || tests === 'all') {
@@ -91,6 +94,7 @@ if (tests.length === 0 || tests === 'all') {
 }
 else {
   tests = tests.split(',').map(function (e) { return e.trim(); });
+  console.log(tests);
 }
 
 var database = databases[0];
@@ -98,6 +102,7 @@ var desc;
 
 try {
   desc = require('./' + database + '/description');
+
 } catch (err) {
   console.log('ERROR database %s is unknown (%s)', database, err);
   process.exit(1);

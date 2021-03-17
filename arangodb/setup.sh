@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 BENCHMARK=${1-`pwd`}
 DB=${2-`pwd`/databases}/arangodb

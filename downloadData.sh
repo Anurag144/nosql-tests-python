@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 TMP=/tmp/nosqlbenchmark
 DOWNLOADS=$TMP/downloads

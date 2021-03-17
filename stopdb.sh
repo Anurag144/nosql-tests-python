@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 DBFOLDER=${1-`pwd`/databases}
 

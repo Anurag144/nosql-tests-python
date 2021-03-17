@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 set -e
 
 echo "Usage [pokec.db] [path-to-neo4j] [path-to-benchmark]"
